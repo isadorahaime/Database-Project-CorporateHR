@@ -1,0 +1,11 @@
+Use DBCorporateHR;
+go
+
+Select 
+    d.DepartamentName AS [Departament],
+    Count(e.EmployeeID) AS [Total Employees]
+From Employees e
+Inner Join Departaments d on e.DepartamentID = d.DepartamentID
+Group By d.DepartamentName
+Order by [Total Employees] Desc;
+go

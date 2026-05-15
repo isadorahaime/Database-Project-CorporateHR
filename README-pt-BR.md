@@ -24,6 +24,26 @@ Um projeto de infraestrutura de banco de dados em nível empresarial projetado p
 * **Implementação:** Implantada uma `TRIGGER` de banco de dados do tipo `AFTER UPDATE` em colunas críticas.
 * **Resultado:** Qualquer alteração feita em informações sensíveis (ex: cargos/promoções) captura automaticamente o `SYSTEM_USER`, marcações de tempo exatas (`GETDATE()`) e os valores históricos anteriores em uma tabela de logs dedicada e imutável (`AuditSalaryChanges`).
 
+## 📖 Fundamentos de SQL & Guia de Referência
+
+Para demonstrar o conhecimento de base aplicado ao longo deste projeto, abaixo está o detalhamento dos conceitos essenciais, incluindo links diretos para suas aplicações práticas neste repositório:
+
+### 1. Consulta & Seleção de Dados (`SELECT`, `AS`)
+* **`SELECT`**: O comando fundamental utilizado para extrair e visualizar dados de tabelas.
+* **`AS` (Alias/Apelido)**: Utilizado para dar a uma coluna ou tabela um nome temporário mais amigável.
+  * 🔍 **Base Visual:** Veja como uma consulta simples e a formatação de colunas foram estruturadas no arquivo [01-CreateDBndTables.sql](scripts/01-CreateDBndTables.sql).
+
+### 2. Relacionamento & Junção de Tabelas (`INNER JOIN`, `ON`)
+* **`INNER JOIN`**: Operador relacional usado para cruzar e combinar linhas de duas ou mais tabelas.
+* **`ON`**: Especifica a regra condicional de cruzamento entre as Chaves Primárias e Estrangeiras.
+  * 🔍 **Base Visual:** Veja o cruzamento estrutural de funcionários e setores dentro do script [02_governance_and_security.sql](scripts/02_governance_and_security.sql).
+
+### 3. Agregação de Dados & Métricas (`COUNT`, `GROUP BY`, `ORDER BY`)
+* **`COUNT()`**: Função que conta o número total de registros que atendem a um critério.
+* **`GROUP BY` / `ORDER BY`**: Utilizados para agrupar as linhas de resultados e ordenar o conjunto final.
+  * 🔍 **Base Visual:** Veja a aplicação de métricas gerenciais e agrupamentos de auditoria no script [03_automation_and_audit.sql](scripts/03_automation_and_audit.sql).
+
+ 
 ## 💻 Tecnologias Utilizadas
 * **SGBD:** Microsoft SQL Server Express
 * **Cliente de Gerenciamento:** SQL Server Management Studio (SSMS)

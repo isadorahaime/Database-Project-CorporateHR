@@ -33,19 +33,19 @@ Para demonstrar o conhecimento de base aplicado ao longo deste projeto, abaixo e
 * **`AS` (Alias/Apelido)**: Utilizado para dar a uma coluna ou tabela um nome temporário mais amigável.
   * 🔍 **Base Visual:** Veja como uma consulta simples e a formatação de colunas foram estruturadas no arquivos:
   * [01-CreateDBndTables.sql](Scripts/01-CreateDBndTables.sql)
-  * [03-SimpleDataValidation](Scripts/003-SimpleDataValidation.sql)
+  * [03-SimpleDataValidation.sql](Scripts/03-SimpleDataValidation.sql)
 
 ### 2. Relacionamento & Junção de Tabelas (`INNER JOIN`, `ON`)
 * **`INNER JOIN`**: Operador relacional usado para cruzar e combinar linhas de duas ou mais tabelas.
 * **`ON`**: Especifica a regra condicional de cruzamento entre as Chaves Primárias e Estrangeiras.
   * 🔍 **Base Visual:** Veja o cruzamento estrutural de funcionários e setores dentro do script
-  * [02-SecurityNdGovernance.sql](scripts/02-SecurityNdGovernance.sql).
+  * [02-SecurityNdGovernance.sql](Scripts/02-SecurityNdGovernance.sql).
 
 ### 3. Agregação de Dados & Métricas (`COUNT`, `GROUP BY`, `ORDER BY`)
 * **`COUNT()`**: Função que conta o número total de registros que atendem a um critério.
 * **`GROUP BY` / `ORDER BY`**: Utilizados para agrupar as linhas de resultados e ordenar o conjunto final.
   * 🔍 **Base Visual:** Veja a aplicação de métricas gerenciais e agrupamentos de auditoria no script
-  * [08-AuditTriggerCreation.sql](scripts/08-AuditTriggerCreation.sql).
+  * [08-AuditTriggerCreation.sql](Scripts/08-AuditTriggerCreation.sql).
 
  
 ## 💻 Tecnologias Utilizadas

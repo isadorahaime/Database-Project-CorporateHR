@@ -45,7 +45,7 @@ Para demonstrar o conhecimento de base aplicado ao longo deste projeto, abaixo e
 * **`COUNT()`**: Função que conta o número total de registros que atendem a um critério.
 * **`GROUP BY` / `ORDER BY`**: Utilizados para agrupar as linhas de resultados e ordenar o conjunto final.
   * 🔍 **Base Visual:** Veja a aplicação de métricas gerenciais e agrupamentos de auditoria no script
-  * [.sql](scripts/03_automation_and_audit.sql).
+  * [08-AuditTriggerCreation.sql](scripts/08-AuditTriggerCreation.sql).
 
  
 ## 💻 Tecnologias Utilizadas

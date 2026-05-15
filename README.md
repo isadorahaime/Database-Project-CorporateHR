@@ -1,4 +1,4 @@
-_Read this in [Português](README.pt-BR.md)_
+_Read this in [Português](README-pt-BR.md)
 # 💻 DataBase Project
 
 # Corporate HR Data Governance & Security Project
